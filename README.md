@@ -1,17 +1,29 @@
 # Event Management REST API
 
 A RESTful API for managing events and user registrations, built with **Node.js**, **Express**, and **PostgreSQL**.
+
 **How to Clone the repository**
+
 git clone https://github.com/Sarim1693/Event-Management-System.git
+
 ** OPEN THE INTEGRATED TERMINAL**
+
 npm install
+
 Then create Your Databse in the pgAdmin 4
+
 Create .env file 
-int that: DB_PASS=<your_postgres_password>
-          PORT=4000
+
+ DB_PASS=<your_postgres_password>
+ 
+ PORT=4000
+ 
 Start the Server by : node server.js
+
 Server will be running at 4000 and the databse will also be connected
+
 API Endpoints
+
 1. Create Event
 
 POST /events/create
